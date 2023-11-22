@@ -7,6 +7,7 @@ import {
   AiOutlineUser,
 } from "react-icons/ai";
 import Logo from "../../images/logo1.jpg";
+import { Link } from "react-scroll";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -20,19 +21,29 @@ const Navbar = () => {
           }
         >
           <li>
-            <a href="/">Home</a>
+            <Link to="home" smooth={true} duration={500}>
+              <a href="/">Home</a>
+            </Link>
           </li>
           <li>
-            <a href="/">About</a>
+            <Link to="about" smooth={true} duration={500}>
+              <a href="about">About</a>
+            </Link>
           </li>
           <li>
-            <a href="/">Models</a>
+            <Link to="models" smooth={true} duration={500}>
+              <a href="models">Models</a>
+            </Link>
           </li>
           <li>
-            <a href="/">Gallery</a>
+            <Link to="gallery" smooth={true} duration={500}>
+              <a href="gallery">Gallery</a>
+            </Link>
           </li>
           <li>
-            <a href="/">Contact</a>
+            <Link to="contact" smooth={true} duration={500}>
+              <a href="contact">Contact</a>
+            </Link>
           </li>
           <li>
             <AiOutlineSearch size={25} style={{ marginTop: "6px" }} />
