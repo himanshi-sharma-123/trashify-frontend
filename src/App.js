@@ -4,7 +4,8 @@ import Hero from "./components/Hero/Hero";
 import About from "./components/About/About";
 import Model from "./components/Models/Model";
 import Gallery from "./components/Gallery/Gallery";
-import AboutText from "./components/AboutText/AboutText";
+import Rrr from "./components/Rrr/Rrr";
+import WasteClass from "./components/WasteClass/WasteClass";
 
 function App() {
   return (
@@ -12,9 +13,10 @@ function App() {
       <Navbar />
       <Hero />
       <About />
-      <AboutText />
-      <Model />
+      <Rrr />
+      <WasteClass />
       <Gallery />
+      <Model />
     </div>
   );
 }

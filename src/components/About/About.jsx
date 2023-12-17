@@ -12,7 +12,7 @@ const About = () => {
 
         <div className={styles.text_bg}>
           <p>
-            <span>Reuse. Reduce. Recycle</span>
+            <span>Reduce. Reuse. Recycle</span>
           </p>
         </div>
       </div>
