@@ -1,0 +1,50 @@
+.text {
+  /* max-width: 1040px; */
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 1rem;
+}
+
+.text img {
+  max-width: 512px;
+  margin-left: 20px;
+  border-radius: 20%;
+}
+
+.para {
+  margin-top: 10px;
+  text-align: justify;
+  /* max-width: 300px; */
+}
+
+.parag {
+  display: inline-block;
+}
+
+.text p {
+  font-size: 1.5rem;
+  color: #333;
+  padding: 1.5rem 0;
+}
+
+@media screen and (max-width: 920px) {
+  .text {
+    grid-template-columns: 1fr;
+  }
+
+  .text img {
+    max-width: 80%;
+  }
+
+  .text .left {
+    display: flex;
+    justify-content: center;
+  }
+
+  .text h2 {
+    padding-top: 10%;
+  }
+}

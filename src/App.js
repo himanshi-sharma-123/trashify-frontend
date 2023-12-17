@@ -4,6 +4,7 @@ import Hero from "./components/Hero/Hero";
 import About from "./components/About/About";
 import Model from "./components/Models/Model";
 import Gallery from "./components/Gallery/Gallery";
+import AboutText from "./components/AboutText/AboutText";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Navbar />
       <Hero />
       <About />
+      <AboutText />
       <Model />
       <Gallery />
     </div>
