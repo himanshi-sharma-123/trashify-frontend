@@ -6,6 +6,7 @@ import Model from "./components/Models/Model";
 import Gallery from "./components/Gallery/Gallery";
 import Rrr from "./components/Rrr/Rrr";
 import WasteClass from "./components/WasteClass/WasteClass";
+import Dashboard from "./components/Dasboard/Dashboard";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <WasteClass />
       <Gallery />
       <Model />
+      <Dashboard />
     </div>
   );
 }

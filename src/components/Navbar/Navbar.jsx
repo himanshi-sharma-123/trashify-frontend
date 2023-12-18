@@ -31,18 +31,19 @@ const Navbar = () => {
             </Link>
           </li>
           <li>
-            <Link to="models" smooth={true} duration={500}>
-              <a href="models">Models</a>
-            </Link>
-          </li>
-          <li>
             <Link to="gallery" smooth={true} duration={500}>
               <a href="gallery">Gallery</a>
             </Link>
           </li>
           <li>
+            <Link to="models" smooth={true} duration={500}>
+              <a href="models">Models</a>
+            </Link>
+          </li>
+
+          <li>
             <Link to="contact" smooth={true} duration={500}>
-              <a href="contact">Contact</a>
+              <a href="dashboard">Dashboard</a>
             </Link>
           </li>
           <li>

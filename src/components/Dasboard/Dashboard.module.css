@@ -1,6 +1,8 @@
-.model {
+.dashboard {
   max-width: 1040px;
   margin: auto;
+  position: relative;
+  margin-top: 50px;
 }
 
 .heading h1 {
@@ -26,15 +28,4 @@
 .text_bg p {
   font-size: 1.4rem;
   margin-top: -0.6rem;
-}
-
-.video {
-  margin-top: 60px;
-  margin-left: 200px;
-}
-
-@media screen and (max-width: 920px) {
-  .video {
-    margin-left: 140px;
-  }
 }
